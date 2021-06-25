@@ -3,10 +3,10 @@ struct pilita{
   var arre: [String] = []
    mutating func agrega(_ elemento: String){
     arre.append(elemento)
-  }
+  }// agrega elemento
   mutating func pop() -> String? {
     return arre.popLast()
-  }
+  }// remover ultimo
   func peek() -> String? {
     return arre.last
   }
@@ -39,4 +39,4 @@ pilaReal.agrega("hola")
 print(pilaReal)
 
 
-// ECHO POR MIGUEL AGEL GORDILLO TORRALBA 
+// ECHO POR MIGUEL AnGEL GORDILLO TORRALBA 
